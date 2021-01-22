@@ -4,8 +4,9 @@ Implementation of the gradient descent algorithm for linear regretion with 1 var
 
 The hypothesis function that we want to achieve/predict:
 
-![formula](https://render.githubusercontent.com/render/math?math=h(x^i) = \theta_0+\theta_1x^i)
+![formula](https://render.githubusercontent.com/render/math?math={h(x^i) = \theta_0+\theta_1x^i})
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 where $i$ is the index of the sample
 
