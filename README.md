@@ -3,17 +3,20 @@
 Implementation of the gradient descent algorithm for linear regretion with 1 variable in python.
 
 The hypothesis function that we want to achieve/predict:
-$h(x^i) = \theta_0+\theta_1x^i$
-where $i$ is the index of the sample
+
+![eq1](https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/eq1.png?raw=true)
+
+where i is the index of the sample
 
 The mean square error function J is as follows:
-$J(\theta_0,\theta_1) = \frac{\sum(h(x^i)-y^i)^2}{2m}$
 
-To minimize the error function $J$ we use the gradient descent $-\bigtriangledown J(\theta)$:
+![eq2](https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/eq2.png?raw=true)
 
-$\theta_0 = \theta_0 - \alpha \frac{\partial}{\partial\theta_0} J(\theta_0,\theta_1)$
+To minimize the error function $J$ we use the gradient descent ![eq3](https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/eq3.png?raw=true):
 
-$\theta_1 = \theta_1 - \alpha \frac{\partial}{\partial\theta_1} J(\theta_0,\theta_1)$
+![eq4](https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/eq4.png?raw=true)
+
+![eq5](https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/eq5.png?raw=true)
 
 In this script I used the numpy libreary that makes a lot easyer to make this vector calculations.
 a
