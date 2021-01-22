@@ -4,7 +4,7 @@ Implementation of the gradient descent algorithm for linear regretion with 1 var
 
 The hypothesis function that we want to achieve/predict:
 
-<img src="https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/eq1.png?raw=true" width="50%" height="50%">
+<img src="https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/eq1.png?raw=true" width="30%" height="30%">
 
 where i is the index of the sample
 
