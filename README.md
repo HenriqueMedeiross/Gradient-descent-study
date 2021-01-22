@@ -19,3 +19,5 @@ To minimize the error function J we use the gradient descent <img src="https://g
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/Equations/eq5.png?raw=true" width="30%" height="30%">
 
 In this script I used the numpy libreary that makes a lot easyer to make this vector calculations.
+
+*Please notify me if you find some error or if there is any how to improve my code*
