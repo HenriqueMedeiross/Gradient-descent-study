@@ -3,7 +3,7 @@
 Implementation of the gradient descent algorithm for linear regretion with 1 variable in python.
 
 The hypothesis function that we want to achieve/predict:
-img src="https://render.githubusercontent.com/render/math?math=h(x^i) = \theta_0+\theta_1x^i
+<img src="https://render.githubusercontent.com/render/math?math=h(x^i) = \theta_0+\theta_1x^i>
 where $i$ is the index of the sample
 
 The mean square error function J is as follows:
