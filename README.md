@@ -16,3 +16,4 @@ $\theta_0 = \theta_0 - \alpha \frac{\partial}{\partial\theta_0} J(\theta_0,\thet
 $\theta_1 = \theta_1 - \alpha \frac{\partial}{\partial\theta_1} J(\theta_0,\theta_1)$
 
 In this script I used the numpy libreary that makes a lot easyer to make this vector calculations.
+a
