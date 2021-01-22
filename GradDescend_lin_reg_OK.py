@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 
-# Set of tuples organized in some kind of ascending line
+# Just initialization of some set of values, skip to line 64
 def coord():
     return np.array([(1.38,1.13),
     (2.52,2.47),
