@@ -24,8 +24,14 @@ After this, get all the *m* vectors x and transpose and stack them like this: <i
 Unlike the function y = ax+b, we have more than 1 entry *x*, we have *n* entries (that was written above as a vector). Consider a and b as weigths of that function y, now if we have *n* features we will need *n+1* weigths to construct some linear model function. Those weigths are called theta, and it's vector form is as follows:  <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/theta_vector.png?raw=true">
 
 With all of this in mind, it's now possible to elaborate a hypothesis function, that is, the function we will use to predict the y values.
+
+
  <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/h(x).png?raw=true">
- So, for each training exemple m, we will predict it's value and compare with the correct one (y). To do this we'll finaly need to get a cost function J:<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/costfunc.png?raw=true">
+
+
+ So, for each training exemple m, we will predict it's value and compare with the correct one (y). To do this we'll finaly need to get a cost function J:
+ 
+ <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/costfunc.png?raw=true">
 
 
 
