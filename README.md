@@ -21,3 +21,8 @@ To minimize the error function J we use the gradient descent <img src="https://g
 In this script I used the numpy libreary that makes a lot easyer to make this vector calculations.
 
 \**Please notify me if you find some error or if there is any how to improve my code*
+
+$x^i_n$ where $i$ is the number of training examples and $n$ is the number of features, this means that $x^i$ is a vector with $n$ features
+
+
+
