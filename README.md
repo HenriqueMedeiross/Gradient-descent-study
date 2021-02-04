@@ -21,6 +21,7 @@ The output *y* vector: <img src="https://github.com/HenriqueMedeiross/Gradient-d
 
 After this, get all the *m* vectors x and transpose and stack them like this: <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/X-matrix.png?raw=true">
 
+
 Unlike the function y = ax+b, we have more than 1 entry *x*, we have *n* entries (that was written above as a vector). Consider a and b as weigths of that function y, now if we have *n* features we will need *n+1* weigths to construct some linear model function. Those weigths are called theta, and it's vector form is as follows:
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/theta_vector.png?raw=true">
@@ -30,6 +31,7 @@ With all of this in mind, it's now possible to elaborate a hypothesis function, 
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/h(x).png?raw=true">
 
+You may notice that we have n features and n+1 weigths, as we'll further vectorize this calculations, for convention it need to be added in the first column of the X matrix, a "ones" that will represent the *x_0*, and as you can imagine, the results will not be changed because it will multiply theta_0, and that weigth has no feature attached to it
 
 So, for each training exemple m, we will predict it's value and compare with the correct one (y). To do this we'll finaly need to get a cost function J:
  
@@ -41,6 +43,9 @@ As you can see, our actual variables are not the X's, but the theta vector (i.e.
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/update%20weights%20function.png?raw=true">
 
+*Please remember that theta isn't a scalar, but a vector instead*
+
+Now our gradient descent is ready to work, but it can be less computational expensive without all those sums. In order to vectorize the h(x), we can simply transpose one of the 2 vectors (x or theta) and make the matrix multiplication with them
 
 
 
