@@ -26,7 +26,7 @@ function [theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters
 
     for iter = 1:num_iters
 
-        theta = theta - alpha*(1/(2*m))*(X'*((X*theta)-y)); % #(n+1_X_1)#
+        theta = theta - alpha*(1/(2*m))*2*(X'*((X*theta)-y)); % #(n+1_X_1)#
         J_history(iter) = (1/(2*m))*((X*theta-y)'*(X*theta-y)); % Track error values to future analysis
     end
 end
