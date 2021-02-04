@@ -45,7 +45,11 @@ As you can see, our actual variables are not the X's, but the theta vector (i.e.
 
 *Please remember that theta isn't a scalar, but a vector instead*
 
-To 
+If you have some calculus knowledge can easily conclude that the partial derivative of the function J related to theta_n is:
+
+
+<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/gradient-func-J.png?raw=true">
+
 
 Now our gradient descent is ready to work, but it can be less computational expensive without all those sums. In order to vectorize the h(x), we can simply multiply X with theta since X's dimentions are (m x n) and theta's are (n x 1), so our h matrix will result like y, (m x 1) as expected.
 
