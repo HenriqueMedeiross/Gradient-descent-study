@@ -56,3 +56,7 @@ Now our gradient descent is ready to work, but it can be less computational expe
 The function J (mean square error) vectorized can be written like this:  
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/mean-square-vect.png?raw=true">
+
+To update the weights in vectorized way you can transpose the X matrix(getting a (n x m)) and multiply it by the error vector (h-y)^2 with (m x 1) dimentions and the resoult will be a (n x 1) vector, just like theta:
+
+<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/update-weights-function-vect.png?raw=true">
