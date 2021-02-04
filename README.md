@@ -8,7 +8,7 @@ Lets get a few step back... What exactly we are trying to minimize?
 
 Say you have some function y = ax+b where the x is your entry data and the y is your expected result. Let's suppose that the data is distributed like this:
 
-<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/scatt.png?raw=true">
+<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/scatt.PNG?raw=true">
 
 
 
