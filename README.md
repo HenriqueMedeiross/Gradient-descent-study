@@ -14,8 +14,11 @@ You can easily guess some values for a and b and find some line that roughly fit
 
 To get a little more generic we'll now assume that we have *n* features (entries or "x") to produce 1 output *y*. Besides that we also have *m* training examples. Now combine all of this in a matrix/vector form.
 
-Our entry *x* vector:
+The entry <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/x^m_n.png?raw=true"> vector:
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/x_matrix.png?raw=true">
+
+
+
 
 
 
