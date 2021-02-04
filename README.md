@@ -48,28 +48,3 @@ As you can see, our actual variables are not the X's, but the theta vector (i.e.
 Now our gradient descent is ready to work, but it can be less computational expensive without all those sums. In order to vectorize the h(x), we can simply transpose one of the 2 vectors (x or theta) and make the matrix multiplication with them
 
 
-
-
-
-<img src="https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/Equations/eq1.png?raw=true" width="30%" height="30%">
-
-where i is the index of the sample
-
-The mean square error function J is as follows:
-
-<img src="https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/Equations/eq2.png?raw=true" width="30%" height="30%">
-
-To minimize the error function J we use the gradient descent <img src="https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/Equations/eq3.png?raw=true" width="10%" height="10%">:
-
-<img src="https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/Equations/eq4.png?raw=true" width="30%" height="30%">
-
-<img src="https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/Equations/eq5.png?raw=true" width="30%" height="30%">
-
-In this script I used the numpy libreary that makes a lot easyer to make this vector calculations.
-
-\**Please notify me if you find some error or if there is any how to improve my code*
-
-$x^i_n$ where $i$ is the number of training examples and $n$ is the number of features, this means that $x^i$ is a vector with $n$ features
-
-
-$h(x^m) = \theta_0 + \theta_1 x_1 + \theta_2 x_2 + ... + \theta_n x_n$
