@@ -6,7 +6,10 @@ The gradient descent is based on the fact that we can minimize some cost functio
 
 Lets get a few step back... What exactly we are trying to minimize?
 
-Say you have some function y = ax+b where the x is your entry data and the y is your expected result. 
+Say you have some function y = ax+b where the x is your entry data and the y is your expected result. Let's suppose that the data is distributed like this:
+
+<img src="https://github.com/HenriqueMedeiross/Gradient-descent-linear-regretion-1-variable/blob/master/Equations/scatt.png?raw=true">
+
 
 
 
