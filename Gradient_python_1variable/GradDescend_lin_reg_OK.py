@@ -125,7 +125,7 @@ while iteractions < max_iteractions:
 # %%
 # Plots to visualize the results of the error
 print(iteractions)
-plt.plot(t,th0+th1*t)
+#.plot(t,th0+th1*t)
 plt.scatter(x_val,y_val)
 plt.show()
 plt.plot(np.arange(len(error_list)),error_list)
