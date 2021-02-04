@@ -31,7 +31,7 @@ With all of this in mind, it's now possible to elaborate a hypothesis function, 
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/h(x).png?raw=true">
 
-You may notice that we have n features and n+1 weigths, as we'll further vectorize this calculations, for convention it need to be added in the first column of the X matrix, a "ones" that will represent the *x_0*, and as you can imagine, the results will not be changed because it will multiply theta_0, and that weigth has no feature attached to it
+You may notice that we have n features and n+1 weigths, as we'll further vectorize this calculations, for convention it need to be added in the first column of the X matrix, a "ones column" that will represent the *x_0*, and as you can imagine, the results will not be changed because it will multiply theta_0, and that weigth has no feature attached to it
 
 So, for each training exemple m, we will predict it's value and compare with the correct one (y). To do this we'll finaly need to get a cost function J:
  
