@@ -45,6 +45,8 @@ As you can see, our actual variables are not the X's, but the theta vector (i.e.
 
 *Please remember that theta isn't a scalar, but a vector instead*
 
-Now our gradient descent is ready to work, but it can be less computational expensive without all those sums. In order to vectorize the h(x), we can simply multiply X with theta since X's dimentions are mXn and theta's are nX1, so our h matrix will result like y, mx1 (as expected).
+Now our gradient descent is ready to work, but it can be less computational expensive without all those sums. In order to vectorize the h(x), we can simply multiply X with theta since X's dimentions are (m x n) and theta's are (n x 1), so our h matrix will result like y, (m x 1) as expected.
 
+The mean square error vectorize form can be written like this:  
 
+<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/mean-square-vect.png?raw=true">
