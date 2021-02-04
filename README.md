@@ -36,7 +36,7 @@ So, for each training exemple m, we will predict it's value and compare with the
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/costfunc.png?raw=true">
 
 What this function does is compare the predicted value h(x_i) with the correct value y_i (where *i* is the current training example), get the square of this result and sum with all the other training examples. This function J is what we need to minimize in order to find the right weigths that fit in our dataset.
-
+</br>
 As you can see, our actual variables are not the X's, but the theta vector (i.e. what we will variate untill we find the best fit) so to minimize the J(theta) function we need to find it's gradient (that tells us the direction of the function growth) and scale it, then subtract the correspondent gradient of each weigth and subtract it (to minimize) from the respective theta. The formula of this operation is as follows:
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/update%20weights%20function.png?raw=true">
