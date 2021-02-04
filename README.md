@@ -22,7 +22,7 @@ The output *y* vector: <img src="https://github.com/HenriqueMedeiross/Gradient-d
 After this, get all the *m* vectors x and transpose and stack them like this: <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/X-matrix.png?raw=true">
 
 
-Unlike the function y = ax+b, we have more than 1 entry *x*, we have *n* entries (that was written above as a vector). Consider a and b as weigths of that function y, now if we have *n* features we will need *n+1* weigths to construct some linear model function. Those weigths are called theta, and it's vector form is as follows:
+Unlike the function y = ax+b, we have more than 1 entry *x*, we have *n* entries (that was written above as a vector). Consider a and b as weigths of that function y, now if we have *n* features we will need *n+1* weigths to construct some linear model function. Let's call those theta, and it's vector form is as follows:
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/theta_vector.png?raw=true">
 
@@ -31,13 +31,13 @@ With all of this in mind, it's now possible to elaborate a hypothesis function, 
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/h(x).png?raw=true">
 
-You may notice that we have n features and n+1 weigths, as we'll further vectorize this calculations, for convention it need to be added in the first column of the X matrix, a "ones column" that will represent the *x_0*, and as you can imagine, the results will not be changed because it will multiply theta_0, and that weigth has no feature attached to it
+You may notice that we have n features and n+1 weigths, as we'll further vectorize this calculations, for convention it needs to be added in the first column of the X matrix, a "ones column" that will represent the *x_0*, and as you can imagine, the results will not be changed because it will multiply theta_0, and that weigth has no feature attached to it
 
-So, for each training exemple m, we will predict it's value and compare with the correct one (y). To do this we'll finaly need to get a cost function J:
+So, for each training exemple m, we will calculate the error produced by our theta vector, getting the predicted value and compare(subtract) from the correct one (y). To do this we'll finaly need to get a cost function J, in this case, the mean square error function:
  
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/costfunc.png?raw=true">
 
-What this function does is compare the predicted value h(x_i) with the correct value y_i (where *i* is the current training example), get the square of this result and sum with all the other training examples. This function J is what we need to minimize in order to find the right weigths that fit in our dataset.
+What this function does is compare the predicted value <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/h(x_i).png?raw=true"> with the correct value y_i (where *i* is the current training example), get the square of this result and sum with all the other training examples. This function J is what we need to minimize in order to find the right weigths that fit in our dataset.
 </br>
 As you can see, our actual variables are not the X's, but the theta vector (i.e. what we will variate untill we find the best fit) so to minimize the J(theta) function we need to find it's gradient (that tells us the direction of the function growth) and scale it, then subtract the correspondent gradient of each weigth and subtract it (to minimize) from the respective theta. The formula of this operation is as follows:
 
