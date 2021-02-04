@@ -25,6 +25,7 @@ Unlike the function y = ax+b, we have more than 1 entry *x*, we have *n* entries
 
 With all of this in mind, it's now possible to elaborate a hypothesis function, that is, the function we will use to predict the y values.
  <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/h(x).png?raw=true">
+ So, for each training exemple m, we will predict it's value and compare with the correct one (y). To do this we'll finaly need to get a cost function J:<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/costfunc.png?raw=true">
 
 
 
