@@ -19,7 +19,9 @@ The entry <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/
 
 The output *y* vector: <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/y_matrix.png?raw=true">
 
+After this get all the *m* vectors x and transpose and stack them like this: <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/X-matrix.png?raw=true">
 
+Unlike the function y = ax+b, we have more than 1 entry *x*, we have *n* entries (that was written above as a vector). Consider a and b as weigths of that function y, now if we have *n* features we will need *n+1* weigths to construct some linear model function. Those weigths are called theta, and it's vector form is as follows:  <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/theta_vector.png?raw=true">
 
 
 
