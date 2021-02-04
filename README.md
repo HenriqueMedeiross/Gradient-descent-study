@@ -17,8 +17,7 @@ To get a little more generic we'll now assume that we have *n* features (entries
 The entry <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/x^m_n.png?raw=true"> vector:
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/x_matrix.png?raw=true">
 
-
-
+The output *y* vector: <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/y_matrix.png?raw=true">
 
 
 
