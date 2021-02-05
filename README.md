@@ -51,7 +51,7 @@ If you have some calculus knowledge can easily conclude that the partial derivat
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/gradient-func-J.png?raw=true">
 
 
-Now our gradient descent is ready to work, but it can be less computational expensive without all those sums. In order to vectorize the h(x), we can simply multiply X with theta since X's dimentions are (m x n) and theta's are (n x 1), so our h matrix will result like y, (m x 1) as expected. Take some time trying to understand the figure below.
+Now our gradient descent is ready to work, but it can be less computational expensive without all those sums. In order to vectorize the h(x), we can simply multiply X with theta since X's dimentions are (m x n) and theta's are (n x 1), so our h matrix will result like y, (m x 1) as expected. This multiplication simply calculates the h(x) for every single training exemple .Take some time trying to understand the figure below.
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/vect-h(x)-eq.png?raw=true">*The x_0 by convention is 1*
 
