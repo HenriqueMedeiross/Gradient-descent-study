@@ -1,6 +1,6 @@
 # Gradient-descent
 
-Implementation of the gradient descent algorithm for polynomial regretion.
+Implementation of the gradient descent algorithm for polynomial regression.
 
 The gradient descent is based on the fact that we can minimize some cost function J using the negative gradient of this function achieving your local minimum.
 
