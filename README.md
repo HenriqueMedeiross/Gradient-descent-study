@@ -37,7 +37,9 @@ The output vector y:
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/exemple-y-.png?raw=true">
 
+And finaly the X matrix, transposing all of the training vectors:
 
+<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/exemple-X.png?raw=true">
 
 Unlike the function y = ax+b, we have more than 1 entry *x*, we have *n* entries (that was written above as a vector). Consider a and b as weigths of that function y, now if we have *n* features we will need *n+1* weigths to construct some linear model function. Let's call those theta, and it's vector form is as follows:
 
