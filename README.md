@@ -26,6 +26,7 @@ After this, get all the *m* vectors x and transpose and stack them like this (to
 Let's take an real exemple to understand better. Suppose you want to predict apartament prices and we have 5 training exemples, your features could be the size of the apartament, the floor it's located and how many garages it has. <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/exemple-features-.png?raw=true">
 
 Our training exemples are: 
+
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/exemple-training-exemples.png?raw=true">
 
 So the vector of the first training exemple will be:
