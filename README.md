@@ -25,6 +25,15 @@ After this, get all the *m* vectors x and transpose and stack them like this (to
 
 Let's take an real exemple to understand better. Suppose you want to predict apartament prices and we have 5 training exemples, your features could be the size of the apartament, the floor it's located and how many garages it has. <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/exemple-features-.png?raw=true">
 
+Our training exemples are: 
+<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/exemple-training-exemples.png?raw=true">
+
+So the vector of the first training exemple will be:
+
+<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/exemple-features-x1.png?raw=true">
+
+
+
 Unlike the function y = ax+b, we have more than 1 entry *x*, we have *n* entries (that was written above as a vector). Consider a and b as weigths of that function y, now if we have *n* features we will need *n+1* weigths to construct some linear model function. Let's call those theta, and it's vector form is as follows:
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/theta_vector.png?raw=true">
