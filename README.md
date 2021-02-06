@@ -23,7 +23,7 @@ After this, get all the *m* vectors x and transpose and stack them like this (to
 
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/X-matrix.png?raw=true">
 
-Let's see a real exemple to understand better this matricies. Suppose you want to predict apartament prices and we have 5 training exemples, your features could be the size of the apartament, the floor it's located and how many garages it has. So n = 3 and m = 5 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/exemple-features-.png?raw=true">
+Let's see a real exemple to understand better this matricies. Suppose you want to predict apartament prices and we have 5 training exemples and 3 features (n = 3 and m = 5), your features could be the size of the apartament, the floor it's located and how many garages it has.<img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/exemple-features-.png?raw=true">
 
 Our training exemples are: 
 
