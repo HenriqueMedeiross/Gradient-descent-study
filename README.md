@@ -12,7 +12,7 @@ Say you have some function y = ax+b where the x is your entry data and the y is 
 
 You can easily guess some values for a and b and find a line that roughly fit in those points, but when you need to be more accurate and versatile this work gets a little harder.
 
-To get a little more generic we'll now assume that we have *n* features (entries or "x") to produce 1 output *y*. Besides that we also have *m* training examples. Now combine all of this in a matrix/vector form.
+To get a little more generic we'll now assume that we have *n* features (entries or "x") to produce 1 output *y*. Besides that we also have *m* training examples. Now combine all of this in a matrix/vector form. *The supersrcript here does not represent the power of the number, but the indicie of the training exemple*
 
 The entry <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/x^m_n.png?raw=true"> vector:
 <img src="https://github.com/HenriqueMedeiross/Gradient-descent-study/blob/master/Equations/x_matrix.png?raw=true">
