@@ -4,7 +4,7 @@ Implementation of the gradient descent algorithm for polynomial regression.
 
 The gradient descent is based on the fact that we can minimize some cost function J using the negative gradient of this function achieving your local minimum.
 
-Lets take a few steps back... What exactly we are trying to minimize?
+Lets take a few steps back... What exactly are we trying to minimize?
 
 Say you have some function y = ax+b where the x is your entry data and the y is your expected result. Let's suppose that the data is distributed like this:
 
