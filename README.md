@@ -1,9 +1,14 @@
 # Gradient-descent
 
 *Gradient_python_1variable: Contain a simpler and not optimized way to implement gradient descent with 1 variable with python*
+
+</br>
+
 *General_octave_vectorized: Contain an octave implementation of the gradient descent that is more complete (based on machine-learning course on coursera by Andrew Ng)*
 
 </br>
+</br>
+
 
 Implementation of the gradient descent algorithm for polynomial regression.
 
